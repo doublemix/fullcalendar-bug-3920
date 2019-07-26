@@ -1,6 +1,8 @@
 const fs = require('fs');
 const express = require('express');
 
+const PORT = process.env.PORT || 8080;
+
 const app = express();
 
 const generateEvents = require('./events');
@@ -21,6 +23,6 @@ app.get('/get-events', (req, res) => {
     res.json(events);
   }, 2000);
 });
-app.listen(3000, () => {
-  console.log('server running at http://localhost:3000/');
+app.listen(PORT, () => {
+  console.log(`server running at port ${PORT}`);
 });
