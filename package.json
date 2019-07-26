@@ -1,0 +1,15 @@
+{
+  "name": "calendar-bug",
+  "version": "1.0.0",
+  "description": "FullCalendar Bug #3920 Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  }
+}
