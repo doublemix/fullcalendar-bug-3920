@@ -2,24 +2,24 @@
 <html>
   <head>
     <title>FullCalendar Bug #3920 Demonstration</title>
-    <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/core@4.2.0/main.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/core@4.3.0/main.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.css" />
   </head>
   <body>
     <h1>FullCalendar Bug #3920 Demonstration</h1>
     <h2>Instructions</h2>
     <ol>
-      <li>Wait for the event to load for today</li>
+      <li>Wait for the event to load for today.</li>
       <li>Navigate to the next month and quickly (within two seconds) back to this month. Or use this button <button onclick="doNavigation()">Do Quick Navigation</button></li>
-      <li>Wait. Approximately two seconds</li>
+      <li>Wait... Approximately two seconds.</li>
       <li>After the request for next month's events completes, the event for this month will disappear.
-        <ul><li>Events that are in the overlap are not affected</li></ul>
+        <ul><li>Events that are in the overlap are not affected.</li></ul>
       </li>
 
     </ol>
     <div id="calendar"></div>
-    <script type="text/javascript" src="https://unpkg.com/@fullcalendar/core@4.2.0/main.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@fullcalendar/core@4.3.0/main.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.js"></script>
     <script type="text/javascript">
       var calendar = null;
       function doNavigation () {
