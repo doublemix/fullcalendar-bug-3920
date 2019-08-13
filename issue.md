@@ -13,7 +13,7 @@ I know this is very similar to #3920, but that issue was closed and my set-up is
 
 ### Reproduction
 
-I have a reproduction here: [FullCalendar Bug #3920 Demonstration](https://doublemx2-fullcalendar-bug3920.herokuapp.com/). It's a Heroku app because I needed a custom server. Here's the repo, in case you want to see the set-up: [doublemix/fullcalendar-bug-3920](https://github.com/doublemix/fullcalendar-bug-3920)
+I have a reproduction here: [FullCalendar Bug #4975 Demonstration](https://doublemx2-fullcalendar-bug3920.herokuapp.com/). It's a Heroku app because I needed a custom server. Here's the repo, in case you want to see the set-up: [doublemix/fullcalendar-bug-4975](https://github.com/doublemix/fullcalendar-bug-4975)
 
 ### Suspected Cause
 

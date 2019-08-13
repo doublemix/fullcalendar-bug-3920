@@ -1,7 +1,7 @@
 {
   "name": "calendar-bug",
   "version": "1.0.0",
-  "description": "FullCalendar Bug #3920 Demo",
+  "description": "FullCalendar Bug #4975 Demo",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

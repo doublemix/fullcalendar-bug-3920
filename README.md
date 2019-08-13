@@ -1,4 +1,4 @@
-# FullCalendar Bug #3920 Demonstration
+# FullCalendar Bug #4975 Demonstration
 
 A small working demo of how quickly navigating between different time ranges with an asynchronous event source
 can cause incorrect behavior where no (or not all events) render.
@@ -12,7 +12,7 @@ I used 3 events (today, 2 weeks ago, 2 weeks from now) to ensure that at least o
 
 ## Heroku App
 
-A demonstration of this bug is live on Heroku: [FullCalendar Bug #3920 Demonstration](https://doublemx2-fullcalendar-bug3920.herokuapp.com/). Follow instructions on home page to recreate the bug.
+A demonstration of this bug is live on Heroku: [FullCalendar Bug #4975 Demonstration](https://doublemx2-fullcalendar-bug3920.herokuapp.com/). Follow instructions on home page to recreate the bug.
 
 ## Running locally
 
@@ -24,11 +24,11 @@ Requires NPM and Node. Runs a HTTP server on localhost port 3000
 
 Clone this repo
 
-    $ git clone https://github.com/doublemix/fullcalendar-bug-3920/
+    $ git clone https://github.com/doublemix/fullcalendar-bug-4975/
 
 Install dependencies
 
-    $ cd fullcalendar-bug-3920
+    $ cd fullcalendar-bug-4975
     $ npm i
 
 Start server
